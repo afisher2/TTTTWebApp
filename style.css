@@ -1,0 +1,109 @@
+@font-face {
+    src: url(cfonts/Roboto/Roboto-Regular.ttf);
+    font-family: Roboto;
+}
+
+@font-face {
+    src: url(cfonts/Roboto/Roboto-Thin.ttf);
+    font-family: RobotoThin;
+}
+
+@font-face {
+    src: url(cfonts/Roboto/Roboto-Light.ttf);
+    font-family: RobotoLight;
+}
+
+/* 
+ * Anything below this is for the girl scout formatting
+ */
+.contacts {
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 15px;
+  }
+
+  .whatwedo {
+    height: 200x;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 15px;
+  }
+
+  .end {
+    margin-left: 48px;
+    margin-top: 30px;
+  }
+
+  /* Division of tablkes */
+  .tables {
+    display:grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .browniejuniorbadges {
+    height: 100%;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 30px;
+    font-family: Roboto;
+    font-size: 13px;
+    text-align: left;
+    border: 2px solid #000;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+
+  .browniejuniorbadges th, td {
+    border: 2px solid #000;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+
+  .juniorbadge {
+    height: 100%;
+    margin-top: 30px;
+    font-family: Roboto;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .juniorbadge th, td {
+    padding: 10px;
+  }
+
+  .browniejuniorbadges2 {
+    height: 100%;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 30px;
+    font-family: Roboto;
+    font-size: 13px;
+    text-align: left;
+    border: 2px solid #000;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+
+  .browniejuniorbadges2 th, td {
+    border: 2px solid #000;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+
+  /* Divisions of photos */
+  .logo {
+    width: 100px;
+    position: absolute;
+    float: left;
+    left: 50%;
+    top: 20%
+  }
+
+  .ttttoutreach {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    display:block;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
